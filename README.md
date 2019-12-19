@@ -6,7 +6,7 @@ This module creates an internal Route53 zone.
 
 ```
 module "internal_zone" {
- source = "git@github.com:rackspace-infrastructure-automation/aws-terraform-route53_internal_zone//?ref=v0.0.3"
+ source = "git@github.com:rackspace-infrastructure-automation/aws-terraform-route53_internal_zone//?ref=v0.12.0"
 
  name   = "customer.local"
  vpc_id = "vpc-12345678901234567"
