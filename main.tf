@@ -26,7 +26,7 @@ locals {
 
   module_tags = {
     Environment     = "${local.environment}"
-    ServiceProvider = "Rackspace"
+    ServiceProvider = "Sage"
   }
 }
 
